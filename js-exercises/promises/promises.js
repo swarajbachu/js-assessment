@@ -13,9 +13,10 @@ const allPromises = (promises) => new Promise((resolve, reject) => {
       resolve(results);
     }
   };
-
   promises.forEach((promise, index) => {
     if (promise instanceof Promise) {
+      // everything is same as promise allsettle except we are not handling the reject case
+      // here if a promise is rejected, the allPromises will be rejected (or basically dont return)
       promise
         .then((value) => handlePromiseResult(index, value))
         .catch((error) => reject(error));
