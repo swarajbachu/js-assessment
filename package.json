@@ -1,0 +1,19 @@
+{
+  "name": "js-skill-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Satyam Bansal <satyamsgsits1994@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "npx": "^10.2.2",
+    "pesto-exercise-starter": "latest"
+  }
+}
