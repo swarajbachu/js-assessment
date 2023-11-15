@@ -1,4 +1,4 @@
-import { allPromises } from './allPromises';
+import { allPromises } from './promises';
 
 describe('allPromises', () => {
   test('The function should return a Promise', () => {

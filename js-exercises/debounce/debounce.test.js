@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { debounce } from "./debounce";
+import { debounce } from './debounce';
 
 jest.useFakeTimers();
 

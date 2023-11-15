@@ -5,7 +5,6 @@ describe('allSettled', () => {
   test('The function should return a Promise', () => {
     expect(allSettled() instanceof Promise).toBe(true);
   });
-
   test('Promise call should return expected status and values', () => {
     expect(allSettled([
       Promise.resolve(33),
